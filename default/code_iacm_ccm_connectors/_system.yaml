@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: code_iacm_ccm_connectors
+  description: 
+spec:
+  owner: admins
+  domain: default

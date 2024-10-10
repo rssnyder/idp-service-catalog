@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: home_lab
+  description: 
+spec:
+  owner: admins
+  domain: default
