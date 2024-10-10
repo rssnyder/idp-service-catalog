@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: delegate
+  description: 
+spec:
+  type: service
+  owner: admins
+  system: iacm
+  lifecycle: experimental

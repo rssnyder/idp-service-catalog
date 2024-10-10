@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ff_relay_proxy
+  description: 
+spec:
+  type: service
+  owner: admins
+  system: default
+  lifecycle: experimental

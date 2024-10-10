@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Harness_Platform_Management
+  description: Centralized Harness Platform Management
+spec:
+  owner: admins

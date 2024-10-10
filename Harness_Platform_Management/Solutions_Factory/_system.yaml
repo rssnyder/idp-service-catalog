@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Solutions_Factory
+  description: 
+spec:
+  owner: admins
+  domain: Harness_Platform_Management
