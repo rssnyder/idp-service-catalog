@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Delegate_Management
+  description: 
+  annotations:
+    harness.io/project-url: https://app.harness.io/ng/account/wlgELJ0TTre5aZhzpt8gVA/cd/orgs/Harness_Platform_Management/projects/Delegate_Management
+spec:
+  owner: admins
+  domain: Harness_Platform_Management

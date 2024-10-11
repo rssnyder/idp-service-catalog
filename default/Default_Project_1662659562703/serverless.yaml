@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: serverless
+  description: 
+  namespace: default
+  annotations:
+    harness.io/project-url: https://app.harness.io/ng/account/wlgELJ0TTre5aZhzpt8gVA/cd/orgs/default/projects/Default_Project_1662659562703
+    harness.io/services: >
+      serverless:
+      https://app.harness.io/ng/account/wlgELJ0TTre5aZhzpt8gVA/cd/orgs/default/projects/Default_Project_1662659562703/services/serverless
+spec:
+  type: service
+  owner: admins
+  system: Default_Project_1662659562703
+  lifecycle: experimental

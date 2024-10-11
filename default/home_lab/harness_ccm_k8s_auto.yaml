@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: harness_ccm_k8s_auto
+  description: 
+  namespace: default
+  annotations:
+    harness.io/project-url: https://app.harness.io/ng/account/wlgELJ0TTre5aZhzpt8gVA/cd/orgs/default/projects/home_lab
+    harness.io/services: >
+      harness_ccm_k8s_auto:
+      https://app.harness.io/ng/account/wlgELJ0TTre5aZhzpt8gVA/cd/orgs/default/projects/home_lab/services/harness_ccm_k8s_auto
+spec:
+  type: service
+  owner: admins
+  system: home_lab
+  lifecycle: experimental

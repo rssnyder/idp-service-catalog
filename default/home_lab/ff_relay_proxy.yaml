@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ff_relay_proxy
+  description: 
+  namespace: default
+  annotations:
+    harness.io/project-url: https://app.harness.io/ng/account/wlgELJ0TTre5aZhzpt8gVA/cd/orgs/default/projects/home_lab
+    harness.io/services: >
+      ff_relay_proxy:
+      https://app.harness.io/ng/account/wlgELJ0TTre5aZhzpt8gVA/cd/orgs/default/projects/home_lab/services/ff_relay_proxy
+spec:
+  type: service
+  owner: admins
+  system: home_lab
+  lifecycle: experimental

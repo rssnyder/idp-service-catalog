@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redis
+  description: 
+  namespace: default
+  annotations:
+    harness.io/project-url: https://app.harness.io/ng/account/wlgELJ0TTre5aZhzpt8gVA/cd/orgs/default/projects/home_lab
+    harness.io/services: >
+      redis:
+      https://app.harness.io/ng/account/wlgELJ0TTre5aZhzpt8gVA/cd/orgs/default/projects/home_lab/services/redis
+spec:
+  type: service
+  owner: admins
+  system: home_lab
+  lifecycle: experimental

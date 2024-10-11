@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: delegate
+  description: 
+  namespace: default
+  annotations:
+    harness.io/project-url: https://app.harness.io/ng/account/wlgELJ0TTre5aZhzpt8gVA/cd/orgs/default/projects/Default_Project_1662659562703
+    harness.io/services: >
+      delegate:
+      https://app.harness.io/ng/account/wlgELJ0TTre5aZhzpt8gVA/cd/orgs/default/projects/Default_Project_1662659562703/services/delegate
+spec:
+  type: service
+  owner: admins
+  system: Default_Project_1662659562703
+  lifecycle: experimental
